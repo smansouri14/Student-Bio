@@ -18,7 +18,7 @@ body {
  }
 
  .horizontal_line{
-     height:2px; width:960px;background:#dddddd;
+     height:2px; width:900px;background:#dddddd;
     }
 
 #left {
@@ -52,7 +52,7 @@ body {
     color: #4aaaa5;
     background: #ffffff;
     width: 960px;
-    padding: 40px;
+    padding: 23px;
     text-align: left;
     margin-left: 450px;
     margin-right: 450px;
@@ -78,6 +78,9 @@ a {
     border-color: #dddddd;
     padding: 1px;
 }
+a:hover{
+     color: red;
+ }
 
 #a_border {  
     border: none;
@@ -96,7 +99,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -108,13 +111,164 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+#container {
     width: 960px;
     border-radius: 5px;
     background: #ffffff;
     padding: 20px;
+    color: #666666;
+    margin-left: 
+    450px;
+    margin-right: 450px;
+    margin-top: 35px;
+    font-size:24px;
+}
+
+#container_portfolio {
+    width: 960px;
+    position: relative;
+    text-align: left;
+    background: #ffffff;
     color: #4aaaa5;
     margin-left: 450px;
     margin-right: 450px;
     margin-top: 35px;
-    font-size:24px;
+    padding-left: 40px;
+}
+
+#top-left {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-left: 81px;
+    padding-right: 81px;
+    text-align: center;
+    margin-right: 680px;
+    margin-bottom: 497px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#table {
+    float: left;
+    padding: 20px;
+    width: 25%;
+}
+
+#top-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-left: 73px;
+    padding-right: 74px;
+    text-align: center;
+    margin-right: 400px;
+    margin-bottom: 497px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#bridge {
+    float: left;
+    padding: 20px;
+    width: 25%;
+    margin-right: 122px;
+
+}
+
+#mid-left {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-left: 72px;
+    padding-right: 71px;
+    margin-right: 680px;
+    margin-bottom: 261px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#chess{
+    float: left;
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    clear: both;
+    overflow: auto;
+}
+
+#mid-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-left: 41px;
+    padding-right: 40px;
+    text-align: center;
+    margin-right: 400px;
+    margin-bottom: 261px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#headphones {
+    float: left;
+    padding: 20px;
+    width: 25%;
+    margin-right: 122px;
+}
+
+#bottom-left {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-left: 37px;
+    padding-right: 36px;
+    text-align: center;
+    margin-right: 680px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#computer-code {
+    padding: 20px;
+    width: 25%;
+}
+
+
+#index_title {
+    color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#title_contact {
+    color: #4aaaa5;
+    padding-bottom: 27px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#title_portfolio {
+    color: #4aaaa5;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
